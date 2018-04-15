@@ -1,8 +1,10 @@
 # Sakila-SQL
-Sample Queries on Sakila database 
+You can down load the database from https://dev.mysql.com/doc/index-other.html
+
+The Git repository also contains the Schema , Data SQL's
 
 
-## Assignment
+## Sample Queries
 
 * 1a. Display the first and last names of all actors from the table `actor`. 
 
@@ -31,8 +33,6 @@ Sample Queries on Sakila database
 * 4d. Perhaps we were too hasty in changing `GROUCHO` to `HARPO`. It turns out that `GROUCHO` was the correct name after all! In a single query, if the first name of the actor is currently `HARPO`, change it to `GROUCHO`. Otherwise, change the first name to `MUCHO GROUCHO`, as that is exactly what the actor will be with the grievous error. BE CAREFUL NOT TO CHANGE THE FIRST NAME OF EVERY ACTOR TO `MUCHO GROUCHO`, HOWEVER! (Hint: update the record using a unique identifier.)
 
 * 5a. You cannot locate the schema of the `address` table. Which query would you use to re-create it? 
-
-  * Hint: [https://dev.mysql.com/doc/refman/5.7/en/show-create-table.html](https://dev.mysql.com/doc/refman/5.7/en/show-create-table.html)
 
 * 6a. Use `JOIN` to display the first and last names, as well as the address, of each staff member. Use the tables `staff` and `address`:
 
